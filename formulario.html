@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form>
+    <b>Nome completo:</b>
+    <br>
+    <input type="text" placeholder="Digite seu nome completo" required/>
+    <br>
+    <br>
+    <b>E-mail:</b>
+    <br>
+    <input type="email" placeholder="Digite seu e-mail" required/>
+    <br>
+    <br>
+    <b>Qual sua nota de satisfação com os serviços públicos (1-9)?:</b>
+    <br>
+    <input type="number" max="9" placeholder="Digite sua nota" />
+    <br>
+    <br>
+    <b>Área(s) de atuação (caso não esteja nos listados abaixo, não é obrigatório responder):</b>
+    <br>
+    Educação
+    <input type="checkbox" name="atuacao" value="educacao"/>
+    <br>
+    Saúde
+    <input type="checkbox" name="atuacao" value="saude"/>
+    <br>
+    Ciências Sociais e Humanidades
+    <input type="checkbox" name="atuacao" value="cienciasSociaisHumanidades"/>
+    <br>
+    Administração e Negócios:
+    <input type="checkbox" name="atuacao" value="adm_eNegocios"/>
+    <br>
+    <br>
+    <b>Naturalidade:</b>
+    <br>
+    <select>
+        <option>Maceió</option>
+        <option>Outra cidade</option>
+    </select>
+    <br>
+    <br>
+    <b>Data de nascimento:</b>
+    <br>
+    <input type="date" placeholder="Digite sua data de nascimento"/>
+    <br>
+    <br>
+    <b>Etnia:</b>
+    <br>
+    Indígena
+    <input type="radio" name="etnia" value="indigena" checked/>
+    | Branca
+    <input type="radio" name="etnia" value="branca"/>
+    | Negra
+    <input type="radio" name="etnia" value="negra"/>
+    | Parda
+    <input type="radio" name="etnia" value="parda"/>
+    | Amarela
+    <input type="radio" name="etnia" value="amarela"/>
+    <br>
+    <br>
+    <b>Código de acesso:</b>
+    <br>
+    <input type="number" min = "1" max = "6" placeholder="Digite seu código de acesso" required/>
+    <br>
+    <br>
+    <input type='submit' value = "Enviar"/>
+    </form>
+</body>
+
+
+</html>
