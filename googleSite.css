@@ -1,0 +1,16 @@
+th{
+    padding: 5px;
+}
+
+.newButton{
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
+    opacity: 0.5; border: 0px;
+    color: solid black;
+}
+
+.newButton:hover{
+    transition: background-color 0.2s linear;
+    color: white;
+    background-color:black;
+}
