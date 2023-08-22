@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Formulário de Cadastro (PlayNow Games)</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="meuFormulario.css" />
+</head>
+
+<body>
+    <h1>PlayNow Games</h1>
+    <strong><label>Digite seu nome de usuário*</label></strong>
+    <br>
+    <input type="text" placeholder="Nome de usuário" required>
+    <br>
+    <br>
+    <strong><label>Digite seu e-mail*</label></strong>
+    <br>
+    <input type="email" placeholder="E-mail" required />
+    <br>
+    <br>
+    <strong><label>Digite sua senha*</label></strong>
+    <br>
+    <input type="password" placeholder="Senha" required>
+    <br>
+    <br>
+    <strong><label>Digite sua idade*</label></strong>
+    <br>
+    <input type="number" min="14" placeholder="Idade" required />
+    <br>
+    <br>
+    <strong><label>Onde você encontrou este site?</label></strong>
+    <br>
+    <select>
+      <option>YouTube</option>
+      <option>Facebook</option>
+      <option>Instagram</option>
+      <option>Mecanismos de buscas (Google, Bing, DuckDuckGo...)</option>
+    </select>
+    <br>
+    <br>
+    <strong><label>Selecione seu gênero</label></strong>
+    <br>
+    <label>Masculino</label>
+    <input type="radio" name="genero" />
+    <label>Feminino</label>
+    <input type="radio" name="genero" />
+    <br>
+    <br>
+    <label>Você prefere que tipo de jogos?</label>
+    <br>
+    <select>
+        <option>Ação</option>
+        <option>Aventura</option>
+        <option>RPG</option>
+    </select>
+    <br>
+    <br>
+    <strong><label>Termos e condições</label></strong>
+    <br>
+    <label>Aceito os termos e condições do site.*</label>
+    <input type="checkbox" required/>
+    <br>
+    <label>Concordo em receber promoções especiais por e-mail.</label>
+    <input type="checkbox"/>
+    <br>
+    <label>Aceito receber convites para eventos de jogos.</label>
+    <input type="checkbox"/>
+    <br>
+    <br>
+    <input type="submit" value="Enviar" />
+    <input type="reset" value="Limpar" />
+</body>
+
+</html>

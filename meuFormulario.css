@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+input, select, option{
+    border-radius: 6px;
+    border: 1.8px solid black;
+    margin-top: 0.1%;
+    background-color: rgb(218, 218, 218); 
+    border: 0px;
+}
+
+input:hover{
+    transition: background-color 0.2s linear;
+    transition: color 0.2s linear;
+    background-color:rgb(202, 202, 202);
+}
+
+table{
+    margin-left: 35%;
+}
