@@ -1,9 +1,9 @@
 div{
-    background-color:orange;
+    background-color:rgb(192, 0, 0);
     display: grid;
     border: 3px solid black;
     border-radius: 10px;
-    border-color: darkorange;
+    border-color: rgb(119, 0, 0);
     position: absolute;
     text-align: center;
 }
