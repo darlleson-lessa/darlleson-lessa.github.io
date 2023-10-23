@@ -1,0 +1,41 @@
+html, head, body{
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  background-color: black;
+  color: darkgoldenrod;
+}
+
+.conteinerSuperior{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: black;
+  background-color: darkgoldenrod;
+}
+
+a{
+  color: black;
+}
+
+.textoProjetos{
+  text-align: center;
+}
+
+.textoNome{
+  text-align: center;
+}
+
+.conteinerInferior{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 2px;
+  text-align: center;
+}
+
+.divisoria{
+  border: solid darkgoldenrod 2px;
+  border-radius: 5%;
+}
