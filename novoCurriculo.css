@@ -23,7 +23,7 @@ body{
 }
 
 .divisoriaDourada{
-    background-color: goldenrod;
+    background-color: darkgoldenrod;
     color: white;
 }
 
@@ -36,7 +36,7 @@ figure{
 
 figcaption{
     color: white;
-    text-align:center
+    text-align: center
 }
 
 .imagemPerfil{
