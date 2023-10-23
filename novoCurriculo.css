@@ -6,53 +6,53 @@ body{
     margin: 0px;
 }
 
-.conteinerPlanoDeFundo{
+.conteiner{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 0px repeat(2, 1fr);
     width: 100%;
     height: 100%;
 }
 
-.divisoria1{
+.divisoriaPreta{
     background-color: black;
+    color: white;
 }
 
-.divisoria2{
+.h3_Posicionado{
+    text-align: center;
+}
+
+.divisoriaDourada{
     background-color: goldenrod;
+    color: white;
 }
 
 .conteudoImagem{
+    
+}
+
+figure{
     position: absolute;
-    text-align: center;
-    margin-left: 31.2%;
-}
+    margin-left: calc(50% - 75px);
+    margin-top: 15%;
 
-.imagemPerfil{
-    margin-top: 45%;
-    height: 19%;
-    width: 19%;
-}
-
-.perfilGithub{
-    margin-top: 0%;
-    height: 10%;
-    width: 10%;
 }
 
 figcaption{
     color: white;
 }
 
-.projetos{
-    position: absolute;
-    color: white;
-    margin-left: 75%;
+
+
+.imagemPerfil{
+    height: 150px;
+    width: 150px;
 }
 
-.nome{
-    position: absolute;
-    color: white;
-    margin-left: 20%;
+.imagemGitHub{
+    margin-left: 33%;
+    height: 50px;
+    width: 50px;
 }
 
 a{
