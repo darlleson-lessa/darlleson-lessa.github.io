@@ -24,18 +24,19 @@ body{
 .conteudoImagem{
     position: absolute;
     text-align: center;
+    margin-left: 31.2%;
 }
 
 .imagemPerfil{
-    margin-top: 16%;
-    height: 9%;
-    width: 9%;
+    margin-top: 45%;
+    height: 19%;
+    width: 19%;
 }
 
 .perfilGithub{
     margin-top: 0%;
-    height: 3.5%;
-    width: 3.5%;
+    height: 10%;
+    width: 10%;
 }
 
 figcaption{
