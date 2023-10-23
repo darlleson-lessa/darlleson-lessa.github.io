@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cálculo do IMC</title>
+        <link rel="stylesheet" href="calculoIMC.css">
+    </head>
+
+    <body>
+        <script>
+            function calcularIMC(){
+                let peso = document.getElementById("peso").value
+                let altura = document.getElementById("altura").value
+                let calculo = (peso/altura**2)*10**4
+                document.getElementById("resultado").innerHTML= "Resultado do cálculo: " + calculo
+            }
+        </script>
+        <h1>Cálculo do IMC</h1>
+        <label>Nome completo: <input type="text"></label>
+        <label>Peso: <input type="text" placeholder="kg" id="peso"></label>
+        <label>Altura: <input type="text" placeholder="cm" id="altura"></label>
+        <input type="button" value="Calcular IMC" onclick="calcularIMC()" id="botao">
+        <br>
+        <label><p id="resultado">Resultado do cálculo: </p></label>
+    </body>
+</html>
