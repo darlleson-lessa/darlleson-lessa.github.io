@@ -27,10 +27,6 @@ body{
     color: white;
 }
 
-.conteudoImagem{
-    
-}
-
 figure{
     position: absolute;
     margin-left: calc(50% - 75px);
@@ -40,9 +36,8 @@ figure{
 
 figcaption{
     color: white;
+    text-align:center
 }
-
-
 
 .imagemPerfil{
     height: 150px;
@@ -50,7 +45,6 @@ figcaption{
 }
 
 .imagemGitHub{
-    margin-left: 33%;
     height: 50px;
     width: 50px;
 }
