@@ -43,16 +43,10 @@ figcaption{
     color: white;
 }
 
-.sobre{
-    position: absolute;
-    color: white;
-    margin-left: 70%;
-}
-
 .projetos{
     position: absolute;
     color: white;
-    margin-left: 90%;
+    margin-left: 80%;
 }
 
 .nome{
