@@ -42,7 +42,8 @@ figcaption{
 .imagemPerfil{
     height: 150px;
     width: 150px;
-    border-radius: 10%;
+    border-radius: 100%;
+    border: 1px solid white;
 }
 
 .imagemGitHub{
