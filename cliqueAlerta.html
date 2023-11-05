@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página com Alerta</title>
+</head>
+<body>
+    <h1>Página com Alerta</h1>
+    <p>Clique no botão abaixo para exibir um alerta simples.</p>
+
+    <button id="meuBotao">Clique-me!</button>
+
+    <script>
+        // Função para exibir o alerta quando o botão é clicado
+        function exibirAlerta() {
+            alert("Você clicou no botão!");
+        }
+
+        // Adiciona um ouvinte de eventos ao botão
+        document.getElementById("meuBotao").addEventListener("click", exibirAlerta);
+    </script>
+</body>
+</html>
