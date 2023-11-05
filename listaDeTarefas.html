@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <input type="text" id="tarefaInput">
+
+    <ul id="listaDeTarefas">
+        <!-- Os itens da lista serão adicionados aqui -->
+    </ul>
+
+    <script>
+        const listaDeTarefas = document.getElementById("listaDeTarefas");
+
+        document.getElementById("tarefaInput").addEventListener("keyup", () => {
+            listaDeTarefas.innerHTML += "<li></li>";
+        });
+    </script>
+</body>
+</html>
