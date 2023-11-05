@@ -6,7 +6,7 @@
     <title>Lista de Tarefas</title>
 </head>
 <body>
-    <input type="text" id="tarefaInput">
+    <label>Digite uma tarefa: <input type="text" id="tarefaInput" placeholder="Colocar o lixo para fora..."></label>
 
     <ul id="listaDeTarefas">
         <!-- Os itens da lista serão adicionados aqui -->
@@ -14,9 +14,13 @@
 
     <script>
         const listaDeTarefas = document.getElementById("listaDeTarefas");
+        const inputTarefa = document.getElementById("tarefaInput");
 
-        document.getElementById("tarefaInput").addEventListener("keyup", () => {
-            listaDeTarefas.innerHTML += "<li></li>";
+        inputTarefa.addEventListener("keyup", (event) => {
+            if (event.key === "Enter") {
+                listaDeTarefas.innerHTML += "<li>" + inputTarefa.value + "</li>";
+                inputTarefa.value = "";
+            }
         });
     </script>
 </body>
