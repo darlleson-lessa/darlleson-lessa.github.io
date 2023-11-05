@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <p>Clique nas imagens abaixo para alterar a imagem principal <strong>(Morty de Camisa Vermelha).</strong></p>
+
+    <!-- Imagem principal -->
+    <img id="imagemPrincipal" src="https://pocketmortys.net/media/com_pocketmortys/assets/MortyRedShirtFront.png" alt="Imagem Principal">
+
+    <!-- Imagem 1 (Morty de Camisa Verde) -->
+    <img src="https://pocketmortys.net/media/com_pocketmortys/assets/MortyGreenShirtFront.png" alt="Morty de Camisa Verde" id="imagem1">
+    
+    <!-- Imagem 2 (Morty de Camisa Laranja) -->
+    <img src="https://pocketmortys.net/media/com_pocketmortys/assets/MortyOrangeShirtFront.png" alt="Morty de Camisa Laranja" id="imagem2">
+
+    <script>
+        // Obtém as imagens e a imagem principal
+        const imagemPrincipal = document.getElementById("imagemPrincipal");
+        const imagem1 = document.getElementById("imagem1");
+        const imagem2 = document.getElementById("imagem2");
+
+        // Adiciona ouvintes de eventos para as imagens menores
+        imagem1.addEventListener("click", () => {
+            alterarImagem('https://pocketmortys.net/media/com_pocketmortys/assets/MortyGreenShirtFront.png');
+        });
+
+        imagem2.addEventListener("click", () => {
+            alterarImagem('https://pocketmortys.net/media/com_pocketmortys/assets/MortyOrangeShirtFront.png');
+        });
+
+        function alterarImagem(novaImagemSrc) {
+            // Altera a imagem principal com a nova imagem clicada
+            imagemPrincipal.src = novaImagemSrc;
+        }
+    </script>
+</body>
+</html>
