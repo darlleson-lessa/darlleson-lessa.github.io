@@ -42,6 +42,7 @@ figcaption{
 .imagemPerfil{
     height: 150px;
     width: 150px;
+    border-radius: 10%;
 }
 
 .imagemGitHub{
@@ -51,8 +52,4 @@ figcaption{
 
 a{
     color: white;
-}
-
-img{
-    border-radius: 10%;
 }
