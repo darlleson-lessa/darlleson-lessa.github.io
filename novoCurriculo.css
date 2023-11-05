@@ -40,10 +40,10 @@ figcaption{
 }
 
 .imagemPerfil{
-    height: 170px;
+    height: 160px;
     width: 150px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 3px solid white;
 }
 
 .imagemGitHub{
