@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Troca de Imagem</title>
+</head>
+<body >
+    <h1>Troca de Imagem</h1>
+    <p>Passe o mouse sobre a imagem para ver a troca.</p>
+
+    <img id="minhaImagem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nirvana_album_cover.svg/640px-Nirvana_album_cover.svg.png" alt="Imagem 1" width="150" height="150" style="border-radius: 5%;">
+
+    <script>
+        // Função para trocar a origem da imagem
+        function trocarImagem() {
+            document.getElementById("minhaImagem").src = "http://tusimagenesde.com/wp-content/uploads/2017/07/nirvana-logo-5.jpg";
+        }
+
+        // Função para restaurar a origem da imagem
+        function restaurarImagem() {
+            document.getElementById("minhaImagem").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nirvana_album_cover.svg/640px-Nirvana_album_cover.svg.png";
+        }
+
+        // Adiciona ouvintes de eventos para passar o mouse sobre a imagem
+        document.getElementById("minhaImagem").addEventListener("mouseover", trocarImagem);
+        document.getElementById("minhaImagem").addEventListener("mouseout", restaurarImagem);
+    </script>
+</body>
+</html>
