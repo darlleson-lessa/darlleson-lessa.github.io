@@ -52,3 +52,7 @@ figcaption{
 a{
     color: white;
 }
+
+img{
+    border-radius: 10%;
+}
