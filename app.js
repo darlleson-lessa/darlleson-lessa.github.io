@@ -10,6 +10,8 @@ app.get("/", function(req, res){
 
 app.listen(3000, () => console.log("Servidor rodando em http://localhost:3000"));
 
+//Rascunho
+
 let cadastros = {nomes: "Darlleson", senhas: "Password"};
 let cadastrosCheck = cadastros.nomes;
 
